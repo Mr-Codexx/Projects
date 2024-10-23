@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  #movieGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .modal img{
+    height: 80vh !important;
+    border-top-right-radius: 50px; /* Apply border-radius on the right side */
+  border-bottom-right-radius: 50px;
+  }
+  .movie-card {
+    width: 18rem;
+    transition: transform 0.3s;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .movie-poster {
+    height: 300px;
+    object-fit: cover;
+  }
+  

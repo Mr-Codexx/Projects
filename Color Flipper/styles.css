@@ -1,0 +1,7 @@
+body {
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+#color-code {
+    font-size: 1.25rem;
+}

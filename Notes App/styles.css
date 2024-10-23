@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  h1 {
+    color: #0d6efd;
+  }
+  
+  #usernamePrompt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #username {
+    width: 100%; /* Full width for username input */
+  }
+  
+  #notesApp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .note-card {
+    margin-top: 15px;
+  }
+  
+  .note-card-header {
+    background-color: #0d6efd;
+    color: white;
+  }
+  
+  .note-card-body {
+    background-color: #fff;
+  }
+  
+  button.delete-btn {
+    float: right;
+    color: #dc3545;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  /* Style for the username form */
+  #usernamePrompt {
+    margin-top: 100px !important;
+    width: 100%; /* Full width for responsiveness */
+    max-width: 600px; /* Max width of 600px */
+    height: 300px; /* Fixed height */
+    padding: 20px;
+    border: 1px solid #0d6efd;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the notes form */
+  #noteForm {
+    max-width: 100%; /* Full width for responsiveness */
+  }
+  
+  #noteTitle {
+    height: 50px; /* Fixed height for title input */
+  }
+  
+  #noteContent {
+    height: 80px; /* Fixed height for content textarea */
+  }
+  
+  h3 {
+    font-size: 1.2rem; /* Adjust header size for better appearance */
+  }
+  

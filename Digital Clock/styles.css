@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+}
+
+.container {
+    height: 100%; /* Full height */
+}
+
+.clock {
+    font-family: "Orbitron", sans-serif;
+    background-color: transparent; /* Semi-transparent black background */
+    color: rgba(0, 0, 0, 0.7);
+    padding: 40px; /* Increased padding */
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: 10rem; /* Larger font size */
+}
